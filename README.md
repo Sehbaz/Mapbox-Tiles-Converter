@@ -7,7 +7,7 @@ Open your terminal and run file called `install_gdal.sh` using the command as
 
 Once the installation is completed note town the file path to `.tiff` file.
 
-Ammend the script with the file location and output file name in the `run.sh` file.
+Amend the script with the file location and output file name in the `run.sh` file using your text editor.
 
 Example:
 
