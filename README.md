@@ -60,14 +60,5 @@ pip install GDAL==<GDAL VERSION FROM OGRINFO>
 Putting It All Together
   
   
-If you want to run the whole process at once, we’ve collected all the commands above in the script below.
+If you want to run the whole process at once, we’ve collected all the commands above in the script present in the directory.
 
-#!/usr/bin/env bash
-
-sudo add-apt-repository ppa:ubuntugis/ppa && sudo apt-get update
-sudo apt-get update
-sudo apt-get install gdal-bin
-sudo apt-get install libgdal-dev
-export CPLUS_INCLUDE_PATH=/usr/include/gdal
-export C_INCLUDE_PATH=/usr/include/gdal
-pip install GDAL
