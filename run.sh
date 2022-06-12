@@ -1,4 +1,6 @@
 echo "** TIFF processing started **"
-gdal_translate -co "ZLEVEL=9" -of mbtiles /home/sehbaz/test.tif princes_new_mosaic.mbtiles
-gdaladdo -r nearest princes_new_mosaic.mbtiles
+
+gdal_translate -co "ZLEVEL=9" -of mbtiles test.tif test.mbtiles
+gdaladdo -r nearest test.mbtiles
+
 echo "** Mosaic processing completed sucessfully ! **"
