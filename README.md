@@ -1,4 +1,8 @@
 ## ✨ TIFF-To-MBTILES-Converter
+Make `install_gdal.sh` and `run.sh` file executable using followinf command
+
+At the command line, run 
+`chmod u+x install_gdal.sh` and  `chmod u+x run.sh`
 
 Open your terminal and run file called `install_gdal.sh` using the command as
 ```bash
